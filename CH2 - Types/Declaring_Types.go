@@ -16,4 +16,17 @@ func main() {
 
 	// Gives byte representation since strings are characters which are bytes
 	fmt.Println("Char at index 3 (hello[3]): ", hello[3]);
+
+	// Booleans
+	// Can be represented by 'true' and 'false'
+	fmt.Println(true && true);
+	fmt.Println(!true);
+
+	var run bool = true;
+
+	if(run){
+		fmt.Println("We hit the if stmt!");
+	}else {
+		fmt.Println("We hit the else stmt!");
+	}
 }
